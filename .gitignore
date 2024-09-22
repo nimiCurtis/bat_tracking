@@ -163,3 +163,7 @@ cython_debug/
 
 # VScode
 .vscode/
+
+
+# datset
+datset/
