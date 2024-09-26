@@ -56,3 +56,23 @@ class ShapesVisualizer:
             
         
         return image_with_shapes
+
+class SimulatedCamera:
+    """Simulated camera class that serves frames from memory continuously.
+
+    Attributes:
+        frames: Numpy array with pre-loaded frames.
+        frame_counter: Count of frames that have been grabbed.
+    """
+
+    frames: np.ndarray
+    frame_counter: int
+
+    def __init__(self, frames):
+        self.frames = frames
+        self.frame_counter = 0
+    
+    def grab_frame(self):
+        idx = self.frame_counter % len(self.frames)
+        self.frame_counter += 1
+        return self.frames[idx]
