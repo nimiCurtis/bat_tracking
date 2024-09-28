@@ -1,5 +1,5 @@
 Frame,Label
-0,None
+0,Explore
 1,None
 2,None
 3,None
@@ -41,7 +41,7 @@ Frame,Label
 39,Explore
 40,Explore
 41,Explore
-42,Explore
+42,box1
 43,box1
 44,box1
 45,box1
@@ -489,9 +489,9 @@ Frame,Label
 487,box1
 488,box1
 489,None
-490,Explore
+490,box1
 491,Explore
-492,None
+492,Explore
 493,Explore
 494,Explore
 495,Explore
